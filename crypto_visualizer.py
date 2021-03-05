@@ -10,8 +10,8 @@ cryptoTwo = "AVAX"
 start = datetime.datetime(2021,1,1)
 end = datetime.datetime.now()
 
-avax = pdr.DataReader(f"{cryptoOne}-{currency}", "duckduckgo", start, end)
-btc = pdr.DataReader(f"{cryptoTwo}-{currency}", "duckduckgo", start, end)
+btc = pdr.DataReader(f"{cryptoOne}-{currency}", "duckduckgo", start, end)
+avax = pdr.DataReader(f"{cryptoTwo}-{currency}", "duckduckgo", start, end)
 
 plt.yscale("log")
 
